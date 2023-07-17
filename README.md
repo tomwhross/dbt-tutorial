@@ -8,8 +8,8 @@ Try running the following commands:
 
 
 ### Setup
-BigQuery [setup](https://docs.getdbt.com/quickstarts/bigquery)
-Core [setup](https://docs.getdbt.com/quickstarts/manual-install)
+ - BigQuery [setup](https://docs.getdbt.com/quickstarts/bigquery)
+ - Core [setup](https://docs.getdbt.com/quickstarts/manual-install)
 
 
 ### Resources:
