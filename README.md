@@ -3,8 +3,15 @@ Welcome to your new dbt project!
 ### Using the starter project
 
 Try running the following commands:
-- dbt run
-- dbt test
+- `dbt run`
+- `dbt run -s staging` (To target the staging model subdirectory)
+- `dbt run --full-refresh` (Use to rebuild incremental models as tables, and to process schema changes that prevent table updates)
+- `dbt test`
+- `dbt test -s staging` (To target the staging model subdirectory)
+- `dbt build` (To run models, run tests, and perform snapshots and seeds)
+- `dbt docs generate`
+- `dbt docs serve --port 8089` (Port argument is optional)
+
 
 
 ### Setup
